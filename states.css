@@ -1,0 +1,25 @@
+body {
+background-color:darkgray;
+    background-repeat: no-repeat;
+ background-position: bottom right;
+  background-attachment: fixed;
+    background-image: "flag.jpg";
+    background-size: cover;
+    
+    margin: 10px;
+    padding: 10px;
+    
+
+}
+p {
+    color: black;
+}
+a {
+    color: red;
+}
+h1  {
+    color: blue;
+}
+    h3 {
+        color: azure;
+    }
