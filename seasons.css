@@ -1,0 +1,197 @@
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Quattrocento&display=swap" rel="stylesheet">html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FF4242;
+    font-family: ariel;
+
+}
+
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+header {
+    background: whitesmoke;
+    text-align: center;
+
+}
+
+header img {
+    width: 100%;
+
+}
+
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#summer h1 {
+    color: coral;
+    font-family: 'Pacifico', cursive;
+}
+
+#spring h1 {
+    color: darkseagreen;
+    font-family: 'Pacifico', cursive;
+}
+
+#fall h1 {
+    color: chocolate;
+    font-family: 'Pacifico', cursive;
+}
+
+#winter h1 {
+    color: skyblue;
+    font-family: 'Pacifico', cursive;
+}
+
+body#spring {
+    background-color: darkseagreen;
+}
+
+body#summer {
+    background-color: coral;
+}
+
+body#fall {
+    background-color: chocolate;
+}
+
+body#winter {
+    background-color: skyblue;
+}
+
+header {}
+
+nav {
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px 0;
+   font-size: 20px; 
+   font-family: 'Quattrocento', serif;
+}
+
+nav a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #FF4242;
+}
+
+
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+    overflow: auto;
+    font-family: 'Quattrocento', serif;
+    margin: 15px;
+    display: center;
+    font-size: 20px;
+    background-color: whitesmoke;
+
+
+}
+
+section h1 {
+    color: #FF4242;
+    size: 30px;
+    font-size: 45px;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+
+}
+
+section h2 {
+    color: #FF4242;
+    font-size: 20px;
+    margin: 0;
+  font-family: 'Quattrocento', serif;
+}
+section h3 {
+    color: coral;
+    font-size: 20px;
+    margin: 0;
+  font-family: 'Quattrocento', serif;
+}
+section h4 {
+    color: skyblue;
+    font-size: 20px;
+    margin: 0;
+  font-family: 'Quattrocento', serif;
+}
+.banner1 {
+    width:100%;
+    display:center;
+    padding:0;
+    
+}
+.earth {
+    width: 40%;
+    display: center;
+    float: bottom;
+    float: right;
+}
+
+.ftree {
+    width: 40%;
+    display: center;
+    float: bottom;
+    float: right;
+}
+
+.stree {
+    width: 40%;
+    display: center;
+    float: bottom;
+    float: right;
+}
+
+.smtree {
+    width: 40%;
+    display: center;
+    float: bottom;
+    float: right;
+}
+
+.wtree {
+    width: 40%;
+    display: center;
+    float: bottom;
+    float: right;
+}
+
+
+
+footer {
+    background-color: darkgrey;
+    text-decoration-color: white;
+    text-align: center;
+    padding: 10px 0;
+}
