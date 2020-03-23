@@ -1,0 +1,74 @@
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Bree+Serif&display=swap"rel="stylesheet" > html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.swiss {
+    text-decoration: none;
+    text-decoration-color: azure;
+}
+
+.feed {
+    text-decoration: none;
+  text-decoration-color: azure;
+}
+
+.arn {
+    text-decoration: none;
+
+}
+
+
+h1 {
+    color: cornflowerblue;
+    font-family: 'Bree Serif', serif;
+}
+
+section h1 {
+    color: cornflowerblue;
+    size: 30px;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Bree Serif', serif;
+
+}
+
+section h2 {
+    color: midnightblue;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+section h3 {
+    color: #ABC;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+section p1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: auto;
+    overflow: auto;
+    color: #0c1729;
+    text-align: center;
+}
+
+section p2 {
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: auto;
+    overflow: auto;
+    color: :#0c1729;
+    text-align: center;
+}
+
+footer {}
