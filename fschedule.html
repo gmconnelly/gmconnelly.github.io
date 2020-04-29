@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title> Contact Us</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="final.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="slider-wrapper theme-light">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/CR2019-16.jpg" data-thumb="images/CR2019-16.jpg" alt="Costa Rica" data-transition="slideInLeft" />
+                    <img src="images/fishing-111.jpg" data-thumb="images/fishing-111.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/football-111.jpg" data-thumb="images/football-111.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/wedding-1.jpg" data-thumb="images/wedding-1.jpg" alt="" data-transition="slideInLeft" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="final.html">Home</a></li>
+                <li><a href="fportfolio.html">Portfolio</a></li>
+                <li><a href="fsessions.html">Sessions</a></li>
+                <li><a href="fschedule.html">Schedule</a></li>
+                <li><a href="fcontact.html">Contact Us</a></li>
+
+            </ul>
+
+        </nav>
+
+        <section>
+
+            <form method="post" action="fthankyou.html">
+
+                <fieldset>
+                    <legend>Schedule your session...</legend>
+                    <p> <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="fname" required></p>
+
+                    <p> <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lname" required></p>
+
+                    <p> <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" required></p>
+
+                    <p> <label for="phone">Phone</label><br>
+                        <input type="tel" id="phone" name="phone"></p>
+
+                    <p>What kind of session are you interested in?</p>
+
+                    <p> <input type="checkbox" id="search" name="howhere" value="searchengine">
+                        <label for="search">Headshot</label><br>
+
+                        <input type="checkbox" id="ad" name="howhere" value="advertisement">
+                        <label for="ad">Family</label><br>
+
+                        <input type="checkbox" id="friend" name="friend" value="friend">
+                        <label for="friend">Wedding</label><br>
+
+                        <input type="checkbox" id="family" name="family" value="family">
+                        <label for="family">Engagement</label><br>
+
+                        <input type="checkbox" id="other" name="other" value="other">
+                        <label for="other">Sport</label><br>
+                        <input type="checkbox" id="other" name="other" value="other">
+                        <label for="other">Other</label><br></p>
+
+                    <p>Is this your first photoshoot?</p>
+                    <input type="radio" name="before" id="yes" value="yes">
+                    <label for="yes">Yes</label><br>
+
+                    <input type="radio" name="before" id="no" value="no">
+                    <label for="no">No</label>
+                    <p>What is the best way to contact you?</p>
+                    <select id="day">
+                        <option value="none">Select a method... </option>
+                        <option value="Wednesday">Email</option>
+                        <option value="Thursday">Phone</option>
+                        <option value="Friday">Mail</option>
+                        <option value="Saturday">Other</option>
+                    </select>
+                    <p>Please leave your comments below:</p>
+                    <textarea name="Comments" id="comments" placeholder="Leave a comment"></textarea>
+                    <p><input type="submit" name="submit" class="button" value="Submit"></p>
+                </fieldset>
+            </form>
+
+        </section>
+
+        <footer>
+            &copy;GMC 2020. violators will be procecuted.
+        </footer>
+    </div>
+    <!--close wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160900252-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160900252-1');
+</script>
+
+
+</body>
+xs
+
+</html>
